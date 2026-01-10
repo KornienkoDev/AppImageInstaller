@@ -58,7 +58,10 @@ A simple Python tool to manage AppImages on Linux. It allows you to install, upd
 If you prefer using the terminal, you can use the following commands:
 
 ```bash
-# Install an AppImageappimage-installer --install /path/to/application.AppImage# Uninstall an AppImageappimage-installer --uninstall /path/to/application.AppImage
+# Install an AppImage
+appimage-installer --install /path/to/application.AppImage
+# Uninstall an AppImage
+appimage-installer --uninstall /path/to/application.AppImage
 ```
 
 ----------
@@ -66,7 +69,6 @@ If you prefer using the terminal, you can use the following commands:
 ## File Locations
 
 The tool organizes your applications in the following directories:
-
 
 | Type | Location |
 |--|--|
@@ -84,6 +86,7 @@ The tool organizes your applications in the following directories:
 3.  Check the "Other Application" submenu in the "Open With" dialog.
 
 **"Command not found: appimage-installer"**
+
  Ensure the symlink was created during setup. 
  Run: sudo ln -sf ~/.local/bin/appimage-installer /usr/local/bin/appimage-installer
     
