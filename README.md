@@ -2,7 +2,6 @@ AppImage Installer
 
 A simple Python tool to manage AppImages on Linux. It allows you to install, update, and uninstall AppImages via a right-click or command line.
 
-PythonLicense
 Features
 
     🖱️ Right-Click Integration: Install or uninstall AppImages directly from your file manager (Thunar, Nautilus, Dolphin, etc.).
@@ -45,9 +44,10 @@ Option B: Command Line
 
 If you prefer using the terminal, you can use the following commands:
 
-# Install an AppImageappimage-installer --install /path/to/application.AppImage# Uninstall an AppImageappimage-installer --uninstall /path/to/application.AppImage
+Install an AppImageappimage-installer --install /path/to/application.AppImage# 
+Uninstall an AppImageappimage-installer --uninstall /path/to/application.AppImage
 
- 
+
 File Locations 
 
 The tool organizes your applications in the following directories: 
