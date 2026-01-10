@@ -18,11 +18,8 @@ Prerequisites
 Quick Setup
 
     Download appimage_installer.py and install.sh and place them in the same folder.
-
     Open your terminal in that directory and run the setup script:
-
     bash install.sh
-
     Restart your File Manager for the changes to take effect.
 
 Usage
@@ -44,45 +41,20 @@ Option B: Command Line
 
 If you prefer using the terminal, you can use the following commands:
 
-Install an AppImageappimage-installer --install /path/to/application.AppImage# 
-Uninstall an AppImageappimage-installer --uninstall /path/to/application.AppImage
+Install an AppImage:
+appimage-installer --install /path/to/application.AppImage
+
+Uninstall an AppImage:
+appimage-installer --uninstall /path/to/application.AppImage
 
 
 File Locations 
 
 The tool organizes your applications in the following directories: 
-Type
- 	
-Location 
+
 Apps	  	~/Applications/ 
 Icons	 	~/.local/share/icons/Applications/ 
 Shortcuts 	~/.local/share/applications/ 
- 
-  
-Troubleshooting 
-
-"AppImage Installer not showing in Open With menu" 
-
-    Ensure you ran the setup script: bash install.sh. 
-    Make sure you restarted your file manager. 
-    Check the "Other Application" submenu in the "Open With" dialog. 
-
-"Command not found: appimage-installer" 
-
-    Ensure the symlink was created during setup. Run:
-    bash
-     
-      
-
-    sudo ln -sf ~/.local/bin/appimage-installer /usr/local/bin/appimage-installer
-     
-     
-      
-
-"Application is not appearing in the menu" 
-
-    This usually happens if the AppImage contains a TryExec line that checks for system binaries that don't exist. 
-    This script automatically removes TryExec lines to fix this. If the issue persists, check the .desktop file in ~/.local/share/applications/ manually. 
 
 License 
 
