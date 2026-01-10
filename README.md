@@ -72,8 +72,8 @@ The tool organizes your applications in the following directories:
 
 | Type | Location |
 |--|--|
-| **Apps** |'~/Applications/'  |
-| **Icons**| `~/.local/share/icons/Applications/'|
+| **Apps** |`~/Applications/`  |
+| **Icons**| `~/.local/share/icons/Applications/`|
 | **Shortcuts**| `~/.local/share/applications/`|
 ----------
 
