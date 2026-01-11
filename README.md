@@ -82,7 +82,8 @@ The tool organizes your applications in the following directories:
 **"Nothing happens after trying to install or uninstall AppImage"**
 
     Before any operations on AppImages execution permission is required.
-    You can set it properties of *.appimage file.
+    You can set it in properties menu of *.appimage file.
+    Or run: chmod +x file.appimage
 
 **"AppImage Installer not showing in Open With menu"**
 
