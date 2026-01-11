@@ -79,6 +79,10 @@ The tool organizes your applications in the following directories:
 
 ## Troubleshooting
 
+**"Nothing happens after trying to install or uninstall AppImage"**
+    Before any operations on AppImages execution permission is required.
+    You can set it properties of *.appimage file.
+
 **"AppImage Installer not showing in Open With menu"**
 
 1.  Ensure you ran the setup script: `bash install.sh`.
