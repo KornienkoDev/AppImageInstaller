@@ -93,7 +93,8 @@ The tool organizes your applications in the following directories:
 
 **"Command not found: appimage-installer"**
 
- Ensure the symlink was created during setup. 
+ Ensure the symlink was created during setup.
+ 
  Run: sudo ln -sf ~/.local/bin/appimage-installer /usr/local/bin/appimage-installer
     
 
