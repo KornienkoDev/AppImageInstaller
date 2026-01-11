@@ -80,6 +80,7 @@ The tool organizes your applications in the following directories:
 ## Troubleshooting
 
 **"Nothing happens after trying to install or uninstall AppImage"**
+
     Before any operations on AppImages execution permission is required.
     You can set it properties of *.appimage file.
 
