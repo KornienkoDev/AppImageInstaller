@@ -42,8 +42,8 @@ A simple Python tool to manage AppImages on Linux. It allows you to install, upd
 
 1.  Right-click any `.AppImage` file.
 2.  Select **Open With** > **AppImage Installer**.
-3.  A terminal window will display the installation progress.
-4.  Once finished, the application appears in your system menu!
+3.  Once finished you will see notification of successful installation.
+4.  The application appears in your system menu!
 
 #### To Uninstall
 
